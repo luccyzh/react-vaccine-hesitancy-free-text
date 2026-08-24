@@ -1,0 +1,30 @@
+# Restricted data and derived outputs
+/data/
+/outputs/
+*.rds
+*.RData
+*.Rdata
+*.csv
+*.xlsx
+*.xls
+*.parquet
+*.feather
+
+# Model artefacts
+*.safetensors
+*.npy
+*.npz
+*.pkl
+*.joblib
+
+# Local environments and caches
+.venv/
+venv/
+__pycache__/
+*.pyc
+.Rhistory
+.Rproj.user/
+
+# System files
+.DS_Store
+Thumbs.db
